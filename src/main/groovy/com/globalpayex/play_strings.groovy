@@ -47,3 +47,19 @@ println studentData.strip()
 
 def maliciousData = "        "
 println maliciousData.isAllWhitespace()
+
+def m1 = "anirudha sawant"
+def m2 = "anirudha"
+def m3 = m2 + " sawant"
+def m4 = "anirudha sawant"
+
+println m1
+println m3
+
+println m1 == m3
+println m1 === m3
+println m1 === m4
+
+def a = 5
+def b = 4 + 1
+println a == b

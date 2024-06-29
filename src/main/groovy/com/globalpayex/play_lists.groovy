@@ -56,3 +56,8 @@ def marksDivision = [
 ]
 
 println marksDivision.flatten().average()
+
+def names = ['anirudha','virat','rohit',null]
+println names*.toUpperCase()
+
+names.each {println it ?.toUpperCase()}
